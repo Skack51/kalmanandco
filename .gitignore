@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*_notes/
+_dws/
+_mmServerScripts/
+*.zip

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Listings — The Kalman Co.</title>
+  <link rel="stylesheet" href="css/main.css">
+  <base href="./">
+</head>
+<body>
+<header class="nav">
+  <div class="left"><a href="index.html"><img src="assets/logo_color.png" alt="K&Co"></a></div>
+  <nav class="center">
+    <a href="index.html">Home</a>
+    <a href="listings.html" style="text-decoration:underline;">Listings</a>
+    <a href="islivin.html">IslLivin'</a>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Your Team</a>
+  </nav>
+  <div class="right"><img src="assets/exp-black.png" alt="eXp Realty"></div>
+</header>
+<main class="section">
+  <div class="container">
+    <h1 style="margin:0 0 6px 0">Listings</h1>
+    <div id="count" style="color:#64748b; margin-bottom:8px"></div>
+    <div class="filters">
+      <select id="f-hood"><option value="">All Neighborhoods</option></select>
+      <select id="f-type"><option value="">All Types</option></select>
+      <input id="f-beds" type="number" placeholder="Min Beds" min="0" step="1">
+      <input id="f-min" type="number" placeholder="Min $" min="0" step="10000">
+      <input id="f-max" type="number" placeholder="Max $" min="0" step="10000">
+      <a href="https://www.zillow.com/nantucket-ma/" target="_blank" style="margin-left:auto; align-self:center; font-weight:700; text-decoration:none">View on Zillow →</a>
+    </div>
+    <div id="grid" class="grid"></div>
+  </div>
+</main>
+<footer><div class="container">
+  <div>© The Kalman Co. 2025 — Brokered by eXp Realty • Nantucket, MA</div>
+  <div class="mininav">
+    <a href="index.html">Home</a>
+    <a href="listings.html">Listings</a>
+    <a href="islivin.html">IslLivin'</a>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Your Team</a>
+  </div>
+</div></footer>
+<script src="js/listings.js"></script>
+</body>
+</html>

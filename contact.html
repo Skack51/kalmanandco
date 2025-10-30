@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — The Kalman Co.</title>
+  <link rel="stylesheet" href="css/main.css">
+  <base href="./">
+</head>
+<body class="contact-page">
+<header class="nav">
+  <div class="left"><a href="index.html"><img src="assets/logo_color.png" alt="K&Co"></a></div>
+  <nav class="center">
+    <a href="index.html">Home</a>
+    <a href="listings.html">Listings</a>
+    <a href="islivin.html">IslLivin'</a>
+    <a href="contact.html" style="text-decoration:underline;">Contact</a>
+    <a href="team.html">Your Team</a>
+  </nav>
+  <div class="right"><img src="assets/exp-black.png" alt="eXp Realty"></div>
+</header>
+<div class="contact-shade"></div>
+<main class="contact-content">
+  <header class="page-header">
+    <h1>Let’s connect</h1>
+    <p>We’d love to help with your Nantucket goals.</p>
+  </header>
+
+  <section class="contact-grid">
+    <div class="panel">
+      <h2>Send a message</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <input required type="text" name="name" placeholder="Your name">
+        <input required type="email" name="email" placeholder="Your email">
+        <textarea rows="6" name="message" placeholder="Tell us what you’re looking for…"></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="panel">
+      <h2>Your people</h2>
+      <div style="display:grid; grid-template-columns:64px 1fr; gap:12px; align-items:center; margin-bottom:14px">
+        <img src="assets/sean.jpg" alt="Sean Kalman" style="width:64px; height:64px; object-fit:cover; border-radius:12px">
+        <div><strong>Sean Kalman</strong> — REALTOR®<br>Phone: <a href="tel:+18578290324">(857) 829-0324</a></div>
+      </div>
+      <div style="display:grid; grid-template-columns:64px 1fr; gap:12px; align-items:center; margin-bottom:14px">
+        <img src="assets/joellen.jpg" alt="Jo-Ellen Redmond" style="width:64px; height:64px; object-fit:cover; border-radius:12px">
+        <div><strong>Jo-Ellen Redmond</strong> — REALTOR®</div>
+      </div>
+      <div style="display:grid; grid-template-columns:64px 1fr; gap:12px; align-items:center;">
+        <img src="assets/gina.jpg" alt="Gina Aselin" style="width:64px; height:64px; object-fit:cover; border-radius:12px">
+        <div><strong>Gina Aselin</strong> — Broker/REALTOR®</div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="container">
+  <div>© The Kalman Co. 2025 — Brokered by eXp Realty • Nantucket, MA</div>
+  <div class="mininav">
+    <a href="index.html">Home</a>
+    <a href="listings.html">Listings</a>
+    <a href="islivin.html">IslLivin'</a>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Your Team</a>
+  </div>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site version="12">
+  <localinfo>
+    <localroot>./</localroot>
+    <httpaddress>http://localhost/kalmanandco/</httpaddress>
+    <cache>TRUE</cache>
+  </localinfo>
+  <serverinfo>
+    <server enabled="FALSE">
+      <accesstype>none</accesstype>
+    </server>
+  </serverinfo>
+  <advanced>
+    <checkin>false</checkin>
+    <cloakextensions></cloakextensions>
+  </advanced>
+  <designnotes>
+    <maintain>TRUE</maintain>
+  </designnotes>
+  <siteinfo>
+    <sitename>Kalman &amp; Co (Git Ready)</sitename>
+  </siteinfo>
+</site>
