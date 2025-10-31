@@ -6,7 +6,7 @@
 .nav{position:sticky;top:0;z-index:100;backdrop-filter:saturate(180%) blur(18px);background:rgba(255,255,255,0.65);border-bottom:1px solid rgba(255,255,255,0.45);box-shadow:0 2px 10px rgba(0,0,0,0.06);display:flex;align-items:center;justify-content:space-between;padding:14px 22px}
 .nav a{color:#0f172a;text-decoration:none;margin:0 12px;font-weight:600}.nav .left img{height:40px;width:auto;transition:transform .2s ease}.nav .left img:hover{transform:scale(1.05)}.nav .right img{height:26px;width:auto}
 .hero{min-height:100vh;display:grid;place-items:center;text-align:center;color:#fff;position:relative;overflow:hidden;background:radial-gradient(1200px 600px at 50% 0%, rgba(255,255,255,.06), rgba(0,0,0,.65))}
-.hero::before{content:"";position:absolute;inset:0;background:url('assets/hero.jpg') center/cover no-repeat;filter:brightness(.62) saturate(1.05);z-index:-2}
+.hero::before{content:"";position:absolute;inset:0;background:url("../assets/hero.jpg")center/cover no-repeat;filter:brightness(.62) saturate(1.05);z-index:-2}
 .hero .content{max-width:960px;padding:72px 18px}.hero img.logo{width:min(240px,36vw);display:block;margin:0 auto 18px auto}
 .hero h1{font-family:"Playfair Display",serif;font-size:56px;font-weight:700;margin:8px 0 12px 0;background:linear-gradient(90deg,#ffffff 0%,#fff8dc 15%,#e6c76e 45%,#b48a2c 70%,#fff8dc 85%,#ffffff 100%);background-size:300% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:shimmer 6s linear infinite;text-shadow:0 1px 2px rgba(0,0,0,0.25)}
 @keyframes shimmer{0%{background-position:0% 0}100%{background-position:200% 0}}.hero p.sub{opacity:.94;margin:6px 0 0 0;font-size:18px}
