@@ -29,13 +29,19 @@
   <section class="contact-grid">
     <div class="panel">
       <h2>Send a message</h2>
-      <form name="contact" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="contact">
-        <input required type="text" name="name" placeholder="Your name">
-        <input required type="email" name="email" placeholder="Your email">
-        <textarea rows="6" name="message" placeholder="Tell us what you’re dreaming of… and how we can make it a reality!"></textarea>
-        <button class="btn" type="submit">Send</button>
-      </form>
+     <form name="contact" method="POST" action="/submit-contact" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact">
+
+  <!-- Honeypot anti-spam -->
+  <div style="display:none;">
+    <input name="bot-field" />
+  </div>
+
+  <input required type="text" name="name" placeholder="Your name">
+  <input required type="email" name="email" placeholder="Your email">
+  <textarea rows="6" name="message" placeholder="Tell us what you’re dreaming of… and how we can make it a reality!"></textarea>
+  <button class="btn" type="submit">Send</button>
+</form>
     </div>
     <div class="panel">
       <h2>Your people</h2>
