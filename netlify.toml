@@ -2,6 +2,19 @@
   publish = "."
   command = ""
 
+
+[functions]
+  directory = "netlify/functions"
+
+
+# Route form submissions into the BoldTrail serverless function
+[[redirects]]
+  from = "/submit-contact"
+  to = "/.netlify/functions/boldtrail-contact"
+  status = 200
+  force = true
+
+
 # Ensure clean routing for a static site (no SPA framework needed)
 [[redirects]]
   from = "/*"
